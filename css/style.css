@@ -29,6 +29,7 @@
 .navli {
     color: cyan;
     font-size: 20px;
+    font-family: 'Kirang Haerang', cursive;
 }
 .navli:hover {
     background-color: darkgray;
@@ -45,6 +46,7 @@
 .activeli {
     color: cyan;
     margin-bottom: 10px;
+    font-family: 'Kirang Haerang', cursive;
 }
 a {
     color: aqua;
@@ -60,11 +62,9 @@ a {
     align-items: center;
     margin: auto;
 }
-body {
-    background-color: gray;
-}
-p {
-    color: #8B008B;
+
+.text-conteiner {
+    color: gold;
     font-size: 40px;
     margin-top: 10px;
 }
@@ -115,15 +115,15 @@ footer {
 }
 .fa-youtube {
     color: red;
-    font-size: 40px;
+    font-size: 30px;
 }
 .fa-facebook-f {
     color: blue;
-    font-size: 40px;
+    font-size: 20px;
 }
 .fa-google-plus-g {
     color: crimson;
-    font-size: 40px;
+    font-size: 30px;
 }
 .footer-text {
     font-size: 18px;
@@ -131,7 +131,8 @@ footer {
 }
 .footer-head {
     font-size: 30px;
-    color: darkseagreen;
+    color: blanchedalmond;
+    font-family: 'Kirang Haerang', cursive
 }
 .footer-box1 {
     width: 150px;
@@ -142,7 +143,7 @@ footer {
 }
 .atext {
     font-size: 18px;
-    color: darkviolet;
+    color: whitesmoke;
 }
 .logo11 {
     color: deepskyblue;
@@ -262,4 +263,30 @@ button:hover {
 }
 #mail {
     border-color: #E8E8E8;
+}
+.conteiner-mcxeta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-mcxeta {
+    width: 700px;
+}
+.headd {
+    font-size: 40px;
+    font-weight: 700px;
+    margin-bottom: 50px;
+    font-family: 'Kirang Haerang', cursive;
+}
+.mcxeta-text {
+    font-size: 20px;
+    opacity: 0.8;
+    font-family: 'Kirang Haerang', cursive;
+}
+.ananuricont {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 900px;
+    margin: 10px auto;
 }
