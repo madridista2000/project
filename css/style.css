@@ -2,59 +2,139 @@
     background-image: url(../images/kazbegi.jpg);
     height: 500px;
     background-position: center;
-    padding-top: 20px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 .nav-conteiner {
+    width: 100%;
+    height: 200px;
+    padding-top: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: flex-start;
     position: fixed;
+    z-index: 10;
 }
 .logo-box {
-    width: 500px;
+    width: 100px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    
+}
+.logo-box1 {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+  
 }
 .logo-img {
     width: 100px;
+   background-color: azure;
 }
 .navbox {
     width: 600px;
 }
 .navul {
-    width: 500px;
+    width: 850px;
     display: flex;
     justify-content: space-around;
 }
 .navli {
-    color: cyan;
+    width: 500px;
+    height: 30px;
+    padding: 5px;
+    
+    color: cornsilk;
     font-size: 20px;
     font-family: 'Kirang Haerang', cursive;
+    transition: all 5s;
 }
-.navli:hover {
-    background-color: darkgray;
+.tab {
+    border-radius: 10%;
+    transition: all 5s;
 }
+.tab:hover {
+    cursor: pointer;
+    height: 170px;
+    background-color: blue;
+   
+}
+.nava {
+    color: cornsilk;
+    font-size: 20px;
+}
+.page {
+    color: black;
+    font-size: 30px;
+}
+.line {
+	width: 20px;
+	height: 2px;
+	background-color: brown;
+
+}
+.vox {
+	width: 30px;
+	height: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: center;
+    display: none;
+    margin-right: 30px;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+
+}
+.active3 {
+	width: 30px;
+	transform: rotate(45deg);
+	position: absolute;
+	margin-top: 10px;
+	transition: all 0.5s;
+}
+.active4 {
+	display: none;
+}
+.active5 {
+	width: 30px;
+	transform: rotate(315deg);
+	position: absolute;
+	margin-top: 10px;
+	transition: all 0.1s;
+}
+
 .tours-box, .cars-box {
     display: none;
 }
 .active {
     display: block;
-    margin-top: 10px;
-    color: brown;
-    background-color: darkgray;
+    opacity: 0;
+    
+    transition: all 5s;
+    
+}
+.active:hover {
+    opacity: 1;
+    
+    
 }
 .activeli {
     color: cyan;
     margin-bottom: 10px;
     font-family: 'Kirang Haerang', cursive;
 }
-a {
+/* a {
     color: aqua;
     font-size: 20px;
-}
+} */
 .head {
     font-size: 100px;
     color:blue;
+    font-family: 'Kirang Haerang', cursive;
 }
 .headbox2 {
     display: flex;
@@ -64,9 +144,18 @@ a {
 }
 
 .text-conteiner {
-    color: gold;
+    color: lightslategray;
     font-size: 40px;
-    margin-top: 10px;
+    margin-top: 20px;
+    font-family: 'Kirang Haerang', cursive;
+    margin-left: 50px;
+}
+.text-conteiner2 {
+    color: lightslategray;
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: 'Kirang Haerang', cursive;
+    margin-left: 250px;
 }
 .mySlides {display:none;}
 .conteiner1 {
@@ -85,11 +174,21 @@ a {
     border-color: black;
 }
 .slide-box {
+    position: relative;
     max-width: 700px;
+    margin: auto;
     
 }
 .coneiner-text {
+    position: absolute;
+    
     width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 footer {
     background-color: black;
@@ -180,13 +279,6 @@ footer {
     margin-bottom: 56px;
     position: relative;
 }
-.map-back {
-    width: 1088px;
-    height: 286px;
-    background-color: black;
-    position: absolute;
-    opacity: 0.3;
-}
 .conteiner-box {
     max-width: 320px;
     width: 100%;
@@ -268,9 +360,21 @@ button:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 20px;
+}
+.conteiner-kazbegi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 .box-mcxeta {
     width: 700px;
+    padding: 10px;
+    border-style: dashed;
+    border-width: 5px;
+    border-color:black;
+    border-radius: 10%;
 }
 .headd {
     font-size: 40px;
@@ -283,10 +387,120 @@ button:hover {
     opacity: 0.8;
     font-family: 'Kirang Haerang', cursive;
 }
+.buta {
+    width: 150px;
+    height: 50px;
+    background-color: orange;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Kirang Haerang', cursive;
+    font-weight: 800;
+    border-radius: 20px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buta:hover {
+    width: 300px;
+    background-color: blueviolet;
+    color: white;
+    transition: all 0.8s;
+}
+
 .ananuricont {
     display: flex;
     flex-direction: column;
     align-content: space-between;
     width: 900px;
     margin: 10px auto;
+}
+.ananuribox {
+    border-style: dotted;
+    border-width: 10px;
+    border-color: blue;
+}
+.Slides {
+    height: 500px;
+}
+.w3-col.s4{
+    width:33.33333%;
+
+}
+.w3-content{
+    margin-left:auto;
+    margin-right:auto;
+    max-width:980px;
+}
+.w3-row-padding {
+    display: flex;
+    flex-wrap: wrap;
+    padding:0 8px;
+    margin-top: 20px;
+}
+.w3-opacity,.w3-hover-opacity:hover{
+    height: 200px;
+    opacity:0.60;
+}
+.w3-hover-opacity-off:hover{opacity:1}
+
+.img-cont {
+    width: 100%;
+    display: flex;
+    background-color: lightblue;
+    justify-content: space-around;
+    margin: 5px 0;
+}
+.img-back1 {
+    height: 600px;
+    width: 500px;
+    background-image: url('../images/trinity.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    transition: all 5s;
+}
+.img-back2 {
+    height: 600px;
+    width: 500px;
+    background-image: url('../images/mcxeta.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    transition: all 5s;
+}
+.img-back3 {
+    height: 600px;
+    width: 500px;
+    background-image: url('../images/kaxeti.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    transition: all 5s;
+}
+.img-back2:hover,.img-back1:hover, .img-back3:hover {
+    width: 700px;
+    opacity: 1;
+    
+}
+
+.imga {
+    color: lightblue;
+    font-size: 30px;
+    font-family: 'Kirang Haerang', cursive;
+    transition: all 3s;
+}
+.imga:hover {
+    color: darkblue;
+    font-size: 70px;
 }
