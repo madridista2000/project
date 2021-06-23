@@ -1,3 +1,4 @@
+
 .header-conteiner {
     background-image: url(../images/kazbegi.jpg);
     height: 500px;
@@ -127,10 +128,6 @@
     margin-bottom: 10px;
     font-family: 'Kirang Haerang', cursive;
 }
-/* a {
-    color: aqua;
-    font-size: 20px;
-} */
 .head {
     font-size: 100px;
     color:blue;
@@ -234,7 +231,7 @@ footer {
     font-family: 'Kirang Haerang', cursive
 }
 .footer-box1 {
-    width: 150px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -293,7 +290,7 @@ footer {
 }
 .section1-text1 {
     font-size: 42px;
-    color: #000000;
+    color: white;
     font-weight: 900;
 }
 .section1-conteiner {
@@ -448,9 +445,9 @@ button:hover {
 .img-cont {
     width: 100%;
     display: flex;
-    background-color: lightblue;
+    
     justify-content: space-around;
-    margin: 5px 0;
+    margin: 100px 0;
 }
 .img-back1 {
     height: 600px;
@@ -503,4 +500,101 @@ button:hover {
 .imga:hover {
     color: darkblue;
     font-size: 70px;
+}
+.moreconteiner {
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.boxtobox {
+    width: 410px;
+    height: 300px;
+    background-color: #2F4F4F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.boxtobox2 {
+    width: 410px;
+    height: 300px;
+    background-color: #40E0D0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fa-utensils, .fa-car {
+    color: white;
+    font-size: 40px;
+}
+.fa-campground, .fa-user-alt {
+    color: #40E0D0;
+    font-size: 40px;
+}
+.boxtobox-head {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+.boxtobox-head2 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #40E0D0;
+}
+.conteineri {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.boxi {
+    
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 650px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+.price {
+    width: 120px;
+    height: 40px;
+    background-color: #20B2AA;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.date-box {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.5s;
+}
+.data-text {
+    font-size: 18px;
+    color: #20B2AA
+}
+.date-box:hover {
+    height: 450px;
+    background-color: #20B2AA;
+}
+.date-box:hover .data-text {
+    color: white;
+}
+.hidden {
+    font-size: 18px;
+    color: white;
+    display: none;
+}
+.date-box:hover .hidden {
+    display: block;
 }
