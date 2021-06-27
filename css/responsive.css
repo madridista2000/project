@@ -1,3 +1,11 @@
+@media (max-width:1110px ) {
+      iframe{width: 100%;}
+      .section1-conteiner1 {flex-direction: column;}
+      .section1-conteiner {width: 100%;}
+      .nav-conteiner {width: 100%;}
+      .navul {width: 500px;}
+      .navli {width: 200px;}
+}
 @media (max-width:930px) {
     .vox {display: block;
     display: flex;}
@@ -18,7 +26,15 @@
     width: 250px;
 }
 .mediabox{display: flex;
-/* align-items: center; */
+
 justify-content: space-around;}
 .active {margin-left: 10px;}
+.ananuricont {width: 100%;}
+}
+@media (max-width:800px) {
+    .conteiner-kazbegi {width: 100%; flex-direction: column;}
+    .box-mcxeta {width: 100%;}
+    .dif {width: 100%;}
+    .textareabox {width: 100%;}
+   
 }

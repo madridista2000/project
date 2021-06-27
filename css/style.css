@@ -18,7 +18,7 @@
     z-index: 10;
 }
 .logo-box {
-    width: 100px;
+    width: 50px;
     position: absolute;
     top: 30px;
     left: 10px;
@@ -31,7 +31,7 @@
   
 }
 .logo-img {
-    width: 100px;
+    width: 50px;
    background-color: azure;
 }
 .navbox {
@@ -52,16 +52,24 @@
     font-family: 'Kirang Haerang', cursive;
     transition: all 5s;
 }
-.tab {
-    border-radius: 10%;
-    transition: all 5s;
+.mediabox {
+    
+    width: 500px;
+    height: 30px;
+    transition: all 0.4s;
 }
-.tab:hover {
-    cursor: pointer;
+.mediabox:hover {
     height: 170px;
-    background-color: blue;
-   
+    background-color: #40E0D0;
+    
 }
+.mediabox:hover .tours-box {
+    display: block;
+}
+.mediabox:hover .cars-box {
+    display: block;
+}
+
 .nava {
     color: cornsilk;
     font-size: 20px;
@@ -110,19 +118,9 @@
 
 .tours-box, .cars-box {
     display: none;
+    transition: all 0.8;
 }
-.active {
-    display: block;
-    opacity: 0;
-    
-    transition: all 5s;
-    
-}
-.active:hover {
-    opacity: 1;
-    
-    
-}
+
 .activeli {
     color: cyan;
     margin-bottom: 10px;
@@ -193,7 +191,8 @@ footer {
 .footer-conteiner {
     width: 100%;
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .footer-box {
     width: 300px;
@@ -245,11 +244,11 @@ footer {
     color: deepskyblue;
     font-size: 30px;
 }
-.logo-box {
+/* .logo-box {
     width: 300px;
     display: flex;
     justify-content: space-between
-}
+} */
 .footer-conteiner1 {
     width: 320px;
     display: flex;
@@ -298,19 +297,25 @@ footer {
     margin: 0 auto;
 }
 .conteiner-wrap {
-    width: 1088px;
+    width: 100%;
+}
+.textareabox {
+    width: 720px;
 }
 #description {
-    width: 720px;
+    max-width: 720px;
+    width: 100%;
     height: 288px;
     background-color: #F8F8F8;
 }
 input {
-    width: 352px;
+    max-width: 358px;
+    width: 300px;
     height: 60px;
 }
 button {
-    width: 352px;
+    max-width: 358px;
+    width: 300px;
     height: 60px;
     background-color:green;
     color: #EBEBEB;
@@ -325,10 +330,12 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 50px;
 }
 .section1-conteiner2 {
-    width: 352px;
+    max-width: 352px;
+    width: 100%;
     height: 288px;
     display: flex;
     flex-wrap: wrap;
@@ -358,6 +365,7 @@ button:hover {
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 .conteiner-kazbegi {
     display: flex;
@@ -375,7 +383,7 @@ button:hover {
 }
 .headd {
     font-size: 40px;
-    font-weight: 700px;
+    font-weight: 700;
     margin-bottom: 50px;
     font-family: 'Kirang Haerang', cursive;
 }
@@ -548,6 +556,7 @@ button:hover {
     justify-content: center;
     margin-top: 200px;
     margin-bottom: 200px;
+    flex-wrap: wrap;
 }
 .boxi {
     
