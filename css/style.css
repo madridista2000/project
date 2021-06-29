@@ -47,7 +47,7 @@
     height: 30px;
     padding: 5px;
     
-    color: cornsilk;
+    color: greenyellow;
     font-size: 20px;
     font-family: 'Kirang Haerang', cursive;
     transition: all 5s;
@@ -71,7 +71,7 @@
 }
 
 .nava {
-    color: cornsilk;
+    color: greenyellow;
     font-size: 20px;
 }
 .page {
@@ -606,4 +606,47 @@ button:hover {
 }
 .date-box:hover .hidden {
     display: block;
+}
+.foto1 {
+    background-image: url('../images/ananuri.jpg');
+    
+}
+.foto2 {
+    background-image: url('../images/kaxeti.jpg');
+    
+}
+.foto3 {
+    background-image: url('../images/mcxeta.jpg');
+}
+.foto4 {
+    background-image: url('../images/trinity.jpg');
+}
+.foto5 {
+    background-image: url('../images/trinity2.jpg');
+    
+}
+.foto6 {
+    background-image: url('../images/signagi.jpg');
+}
+.foto7 {
+    background-image: url('../images/para.jpg');
+}
+.foto8 {
+    background-image: url('../images/fog.jpg');
+}
+.foto9 {
+    background-image: url('../images/kazbegi2.jpg');
+}
+.foto10 {
+    background-image: url('../images/river.jpg');
+}
+.foto11 {
+    background-image: url('../images/para2.jpg');
+}
+.foto12 {
+    background-image: url('../images/stefantsminda.png');
+}
+.foto1, .foto2, .foto3, .foto4, .foto5, .foto6, .foto7, .foto8, .foto9, .foto10, .foto11, .foto12 {
+    background-position: center;
+    background-repeat: no-repeat;
 }
