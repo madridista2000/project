@@ -1,40 +1,96 @@
-@media (max-width:1110px ) {
-      iframe{width: 100%;}
-      .section1-conteiner1 {flex-direction: column;}
-      .section1-conteiner {width: 100%;}
-      .nav-conteiner {width: 100%;}
-      .navul {width: 500px;}
-      .navli {width: 200px;}
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media (max-width: 1110px) {
+  iframe {
+    width: 100%;
+  }
+  .section1-conteiner1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section1-conteiner {
+    width: 100%;
+  }
+  .nav-conteiner {
+    width: 100%;
+  }
 }
-@media (max-width:930px) {
-    .vox {display: block;
-    display: flex;}
-    .navul {display: none;}
-    .active6 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
+@media (max-width: 930px) {
+  .vox {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navul {
+    display: none;
+  }
+  .active6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
     width: 100%;
     height: 400px;
-    background-color: green;
-}
-.navli {
+    background-color: white;
+  }
+  .navli {
     width: 100px;
-}
-.navli:hover {
+  }
+  .navli:hover {
     width: 250px;
-}
-.mediabox{display: flex;
+  }
+  .mediabox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 
-justify-content: space-around;}
-.active {margin-left: 10px;}
-.ananuricont {width: 100%;}
+    -ms-flex-pack: distribute;
+
+        justify-content: space-around;
+  }
+  .active {
+    margin-left: 10px;
+  }
+  .ananuricont {
+    width: 100%;
+  }
 }
-@media (max-width:800px) {
-    .conteiner-kazbegi {width: 100%; flex-direction: column;}
-    .box-mcxeta {width: 100%;}
-    .dif {width: 100%;}
-    .textareabox {width: 100%;}
-   
+@media (max-width: 800px) {
+  .conteiner-kazbegi {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .box-mcxeta {
+    width: 100%;
+  }
+  .dif {
+    width: 100%;
+  }
+  .textareabox {
+    width: 100%;
+  }
+  .twoconteiner {
+    width: 280px;
+  }
+  .footer-text {
+    font-size: 14px;
+  }
 }
